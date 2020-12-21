@@ -1,0 +1,10 @@
+#myCarousel{
+	position:relative;
+}
+#myCarousel .carousel-inner button{
+	border:0px;
+	position:absolute;
+	bottom: 250px;
+	left:450px;
+	width:70px;
+}

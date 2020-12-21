@@ -1,0 +1,68 @@
+body{
+	background-color: black;
+}
+.navbar-static-top{
+
+	margin-bottom: 20px; 
+	background-color: black; 
+	border-width:0px;
+}
+@media all and (max-width: 320px) {
+	.navbar-static-top{
+	width: 100%;
+}
+a{
+	color:black;
+}
+}
+.navbar-static-top .container{
+	height: 80px;
+}
+.navbar-brand {
+	padding:0px;
+}
+.navbar-brand img{
+	width:130px;
+	height: 80px;
+}
+  .navbar-nav  {
+	height: 80px;
+	width: 800px;
+	text-transform: uppercase;
+	padding-left: 50px;
+}
+.navbar-right{
+	width:100px;
+}
+.navbar-nav .navbar-right li{
+	width:80px;
+	color: white;
+	padding-top:15px;
+}
+#glyphi{
+	margin-top:25px;
+	padding:0px;
+}
+
+
+.navbar-nav li{
+
+	width:170px;
+	height: 80px;
+	font-size: 20px;
+	text-align: center;
+}
+.navbar-nav .active li {
+	width:150px;
+	font-size: 20px;
+}
+.navbar-nav li a{
+	height: 80px;
+	
+}
+.navbar-nav .navbar-right{
+	width:150px;
+	height: 80px;
+	font-size: 22px;
+	padding: 10px;
+}
